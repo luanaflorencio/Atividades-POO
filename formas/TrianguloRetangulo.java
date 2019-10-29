@@ -17,9 +17,11 @@ public class TrianguloRetangulo extends Triangulo {
 	}
 
 	public static void main(String[] args) {
-		TrianguloRetangulo t3 = new TrianguloRetangulo("Laranja", 2);
+		TrianguloRetangulo t4 = new TrianguloRetangulo("Laranja", 2);
+		t4.setAltura(3);
+		t4.setCor("Verde");
 		Triangulo t = new TrianguloRetangulo("Vermelho", 1);
-		TrianguloRetangulo t4 = (TrianguloRetangulo) u;
+		TrianguloRetangulo t5 = (TrianguloRetangulo) t;
 	}
 
 }
